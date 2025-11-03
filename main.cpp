@@ -1,31 +1,29 @@
 //
 //  main.cpp
-//  PS1P1(week 2)
+//  PS2P2(Week2)
 //
-//  Created by Alex Uruchima on 8/25/25.
-
-
-
-///INPUT:
-///- enter the quantity and unit price per item
-///-multiply
-///PROCESS:
-///-assign quantity per item
-///-assign price per item-
-///-select calculation type: Multiplication
-///-compute the calculation
-///OUTPUT:
-///- display the result of the calculation
+//  Created by Alex Uruchima on 8/27/25.
+//
 
 #include <iostream>
+using namespace std;
 int main(){
-    using namespace std;
-    double quantity, price;
-    cout<<"Enter quantity: ";
-    cin>> quantity;
-    cout<<"Enter the unit price $: ";
-    cin>> price;
-    cout<<"The extended price will be: $"<<quantity*price<<endl;
+    string lastname;
+    double hours, payrate;
+    cout<< "Enter last name : " ;
+    cin>> lastname;
+    cout<< "Enter hours worked : " ;
+    cin>> hours;
+    cout<<"Enter pay rate : $" ;
+    cin>> payrate;
+    cout<< "Grosspay for employee " <<lastname<< " " "will be : $"  <<hours*payrate<< endl;
+    cout<<"(We are not giving time and a half for overtime hours)"  "     " ;
     
-      return 0;
+    
+    
+    
+    
+    
+    return 0;
 }
+
